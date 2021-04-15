@@ -111,26 +111,3 @@ Have you ever wondered how much "a lifetime supply" of your favourite snack is? 
 5. Log the result to the console like this:
 "You will need NN to last you until the ripe old age of X"
 
-## CHALLENGE 3
-### Compare body mass index
-Compare the body mass index, BMI, between two people. The BMI is calculated using the formula:
-BMI = mass / height ** 2 = mass / (height * height)
-(mass in kg and height in meter)
-
-Tasks:
-1. Store 2 persons mass and height in variables.
-2. Calculate both of their BMI using the formula above.
-3. Create a boolean variable "person1HigherBMI" and compare the two persons BMI. You should get a value of true or false as a return.
-Then console log the output like this:
-
-**Test data:**
-Data 1: person one weights xx kg and is xx m tall.
-Data 2: person 2 weights xx kg and is xx tall
-
-4. Now compare the persons BMI to find out which one has the highest BMI. If person 1 has the higher BMI you should output: "Person 1 BMI is higher than person 2".
-If person 2 has the higher BMI you should output: "Person 2 BMI is higher than person 1".
-
-5. Use template literals to output the result to the console.
-
-**Hint**
-Use if/else statement in this assignment. You can also replace the variable names "person1" and "person2" with whatever you feel like, for example a real name.
